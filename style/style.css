@@ -1,0 +1,72 @@
+/* headerstyle */
+.headeritem{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    padding-right: 90px;
+}
+.mainheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headertext{
+    font-size: large; 
+padding-left: 80px;
+}
+/* section first */
+.sectionfirstimg{
+    width: 300px;
+    height: 200px;
+    margin-right: 200px;
+}
+.firstsectionmain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.firstsectionone{
+    margin-left: 30px;
+    padding-left: 50px;
+}
+.firstsectionbuttone{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: 5px;
+    width: 200px;
+}
+/* second section */
+.secondsectionmain{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 20px;
+}
+/* third section */
+.thirdsectionmain{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 30px;}
+.fa-star-filled{
+    color: gold;
+}
+.thirdsectionimg{
+    width: 200px;
+    height: 200px;
+}
+.thirdsectionone{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(169, 169, 169, 0.1);
+    padding: 30px;
+}
+.thirdsectionbelow{
+    color: crimson;
+    text-align: center;
+    margin-left: 800px;
+}
